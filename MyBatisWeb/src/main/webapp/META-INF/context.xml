@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/MyBatisTomcat">
+
+    <Resource name="jdbc/testdb" 
+              auth="Container"
+              type="javax.sql.DataSource" 
+              username="testuser" 
+              password="test623"              
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/testdb?useSSL=false"
+              maxActive="10" 
+              maxIdle="4"/>
+    
+</Context>
